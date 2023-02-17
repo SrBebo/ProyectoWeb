@@ -113,7 +113,7 @@
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    padding: 20px;
+    padding: 1000px;
 }
 
 .card {
@@ -208,6 +208,7 @@ a{
     justify-content: end;
     align-items: center;
     padding: 20px;
+    margin-top: 50px;
 }
 
 #cuadroTransferencia{
@@ -282,3 +283,181 @@ a{
     height: 40px; 
     border-radius: 15px;
 }
+
+
+/*configuracion estilos para miCuenta*/
+#cuadroSaldo{
+    position: absolute;
+    top: 115px;
+    left: 250px;
+    background-color: white; 
+    font-size: 45px;
+    width: 250px; 
+    padding-left: 10px;
+    height: 70px; 
+    border-radius: 15px;
+}
+#cuadroEstadoCuenta{
+    position: absolute;
+    top: 135px;
+    left: 450px;
+    background-color: #D9D9D9; 
+    width: 950px; 
+    height: 550px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+#cuadroTransaccionHecha{
+    color: rgba(0, 0, 0, 0.333);
+    position: absolute;
+    top: 370px;
+    left: 75px;
+    background-color: #D9D9D9; 
+    font-size: 25px;
+    width: 450px; 
+    padding-left: 10px;
+    height: 40px; 
+    border-radius: 15px;
+}
+
+#btnEstadoCuenta{
+    position:absolute;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    left: 40%;
+    top: 600px;
+    background-color: #95F141;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 220px; 
+    padding-left: 10px;
+    height: 40px; 
+    border-radius: 15px;
+}
+
+
+/*configuracion estilos para miPerfil*/
+#bienvenida{
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 400px;
+    width: 100px;
+    height: 100px;
+}
+#cuadroCambioDatos1{
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    width: 800px; 
+    height: 500px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#contenedorCambios{
+    margin-top: 40px;
+    background-color: #ffffff; 
+    width: 720px; 
+    height: 400px; 
+
+}
+
+#btnCambiarName{
+    position:absolute;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    left: 60%;
+    top: 90px;
+    background-color: #95F141;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 220px; 
+    padding-left: 10px;
+    height: 40px; 
+    border-radius: 15px;
+}
+
+/*configuracion estilos para cambioNombreUsuario*/
+#cuadroCambioDatos{
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    width: 800px; 
+    height: 500px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#cuadroNuevoNombreUsuario{
+    color: rgba(0, 0, 0, 0.333);
+    position: absolute;
+    top: 80px;
+    left: 75px;
+    background-color: #D9D9D9; 
+    font-size: 25px;
+    width: 450px; 
+    padding-left: 10px;
+    height: 40px; 
+    border-radius: 15px;
+}
+
+#cuadroClave{
+    color: rgba(0, 0, 0, 0.333);
+    position: absolute;
+    top: 160px;
+    left: 75px;
+    background-color: #D9D9D9; 
+    font-size: 25px;
+    width: 450px; 
+    padding-left: 10px;
+    height: 40px; 
+    border-radius: 15px;
+}
+
+
+#btnCambiarDatos{
+    position:absolute;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    left: 40%;
+    top: 470px;
+    background-color: #95F141;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 220px; 
+    padding-left: 10px;
+    height: 40px; 
+    border-radius: 15px;
+}
+
+#usuarioImagen {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+   }
+   
+   #imagenU {
+    width: 20%;  /* Este será el ancho que tendrá tu columna */
+    background-color: #CCCCCC;  /* Aquí pon el color del fondo que quieras para este lateral */
+    float:right; /* Aquí determinas de lado quieres quede esta "columna" */
+   }
+   
+   #pnombreU {
+    width: 75%;
+    float: left;
+    background-color: #FFFFFF;
+    border:#000000 1px solid; /* ponemos un donde para que se vea bonito */
+   }
+   /* Para limpiar los floats */
+   .clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
