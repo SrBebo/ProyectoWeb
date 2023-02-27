@@ -383,3 +383,95 @@
     font-size: 20px;
     translate: 0px -15px;
 }
+
+/*Opciones Crear cuenta o iniciar sesion*/
+#cuadradoOpciones {
+    width: 800px; /* Ancho */
+    height: 550px; /* Alto */
+    background-color: rgba(129, 121, 121, 0.764); /* Color de fondo */
+    position: absolute; /* Posición absoluta */
+    top: 100px; /* Arriba */
+    bottom: 0; /* Abajo */
+    left: 0; /* Izquierda */
+    right: 0; /* Derecha */
+    margin: auto; /* Margen automático */
+}
+
+#btnResgistrarO {
+    position: absolute; /* Posición absoluta */
+    right: 25%; /* 20px desde el borde derecho */
+    top: 20%; /* 20px desde el borde superior */
+    background-color: #38B1B1; /* Color de fondo */
+    border-bottom-color: 2px black;
+    color: rgb(0, 0, 0); /* Color de texto */
+    height: 20%;
+    width:50%;
+    border-radius: 9px; /* Bordes redondos */
+    cursor: pointer; /* Cursor estilo mano */
+    font-weight: bold;
+}
+#btnIniciarO {
+    position: absolute; /* Posición absoluta */
+    right: 25%; /* 20px desde el borde derecho */
+    top: 50%; /* 20px desde el borde superior */
+    background-color: #38B1B1; /* Color de fondo */
+    border-bottom-color: 2px black;
+    color: rgb(0, 0, 0); /* Color de texto */
+    height: 20%;
+    width:50%;
+    border-radius: 9px; /* Bordes redondos */
+    cursor: pointer; /* Cursor estilo mano */
+    font-weight: bold;
+}
+#ResgistrarOtxt{
+    font-size: 25px;
+}
+#IniciarOtxt{
+    font-size: 25px;
+}
+
+
+
+
+/* Estilos generales */
+
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media (min-width: 992px) {
+    body {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media screen and (min-width: 901px) {
+    p {
+      font-size: 18px;
+    }
+  }

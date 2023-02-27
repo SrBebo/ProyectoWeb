@@ -37,24 +37,31 @@
     
     <div class="container">
         <div class="row">
-            <img src="recursos/img/fondoPagina.png" alt="">   
+            <img src="recursos/img/fondoPagina.png" style="height:700px;" alt="">   
         </div>        
     </div>
     <div id="Contenido">
-        <div id="infoTransfe">
-            <h2>
-                Realiza transferencias
-            </h2>
-            <br>
-            <p>
-                Usa tu cuenta corriente o familiar para realizar transferencias entre cuentas.
-            </p>
-            <br>
-            <img src="recursos/img/transferencia.png" alt="" >
-            <a id="btnBancaVirtual2" href="#banca-virtual">Banca-Virtual</a>
+        <div id="infoContacto">
+            <form id="formContacto">
+                <h1><center>Contactanos</center></h1>
+                <div class="form-group m-3">
+                    <label id="tituloC" style="color: rgb(255, 255, 255); font-family: Georgia, 'Times New Roman', Times, serif" for="inputEmail">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                        placeholder="Ingrese su correo electrónico...">
+                </div>
+                <div class="form-group m-3">
+                    <label id="tituloC" style="color: rgb(255, 255, 255); font-family: Georgia, 'Times New Roman', Times, serif" for="inputAsunto">Asunto</label>
+                    <input type="text" class="form-control" id="inputAsunto" placeholder="Asunto del mensaje">
+                </div>
+                <div class="form-group m-3">
+                    <label id="tituloC" style="color: rgb(255, 255, 255); font-family: Georgia, 'Times New Roman', Times, serif" for="FormControlTextarea">Escriba su mensaje</label>
+                    <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
+                </div>
+                <button id="tituloC" type="submit" class="btn btn-secondary m-3">Enviar</button>
+            </form>
         </div>
     </div>
-    <div id="piePag">
+    <div id="piePagContacto">
     
         <div class="card">
             <h3>Para ti</h3>
@@ -114,11 +121,6 @@
             </div>
         </a>     
         </div>
-    </div>
-    <div>
-        <button class="circle-button">
-            <i class="arrow"><img src="recursos/img/btnRegreso.png" width="80%" height="70%" alt=""></i>
-        </button>
     </div>
 </body>
 
